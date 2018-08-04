@@ -1,0 +1,1395 @@
+
+<!DOCTYPE HTML>
+<html lang="中文" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>类型转换 · 萌萌哒的程序猿</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="萌萌哒的程序猿">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lei-xing-zhuan-huan/li-shi-lei-xing-zhuan.html" />
+    
+    
+    <link rel="prev" href="ce-shi/vs.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"darrenliuwei/gitbook","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="ce-shi.html">
+            
+                <a href="ce-shi.html">
+            
+                    
+                    CSharp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="ce-shi/vs.html">
+            
+                <a href="ce-shi/vs.html">
+            
+                    
+                    VS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.1.2" data-path="lei-xing-zhuan-huan.html">
+            
+                <a href="lei-xing-zhuan-huan.html">
+            
+                    
+                    类型转换
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.2.1" data-path="lei-xing-zhuan-huan/li-shi-lei-xing-zhuan.html">
+            
+                <a href="lei-xing-zhuan-huan/li-shi-lei-xing-zhuan.html">
+            
+                    
+                    里氏类型转
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2.2" data-path="lei-xing-zhuan-huan/convert-lei-xing-zhuan-huan.html">
+            
+                <a href="lei-xing-zhuan-huan/convert-lei-xing-zhuan-huan.html">
+            
+                    
+                    Convert 类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2.3" data-path="lei-xing-zhuan-huan/parse-lei-xing-zhuan-huan.html">
+            
+                <a href="lei-xing-zhuan-huan/parse-lei-xing-zhuan-huan.html">
+            
+                    
+                    Parse 类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2.4" data-path="lei-xing-zhuan-huan/tryparse-lei-xing-zhuan-huan.html">
+            
+                <a href="lei-xing-zhuan-huan/tryparse-lei-xing-zhuan-huan.html">
+            
+                    
+                    TryParse 类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.3" data-path="ce-shi/fan-xing.html">
+            
+                <a href="ce-shi/fan-xing.html">
+            
+                    
+                    泛型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.4" data-path="ce-shi/fang-fa-han-shu.html">
+            
+                <a href="ce-shi/fang-fa-han-shu.html">
+            
+                    
+                    方法函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.4.1" data-path="ce-shi/fang-fa-han-shu/di-gui.html">
+            
+                <a href="ce-shi/fang-fa-han-shu/di-gui.html">
+            
+                    
+                    递归
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.4.2" data-path="ce-shi/fang-fa-han-shu/zhong-zai.html">
+            
+                <a href="ce-shi/fang-fa-han-shu/zhong-zai.html">
+            
+                    
+                    重载
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.5" data-path="ce-shi/fu-za-shu-ju-lei-xing.html">
+            
+                <a href="ce-shi/fu-za-shu-ju-lei-xing.html">
+            
+                    
+                    复杂数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.5.1" data-path="ce-shi/fu-za-shu-ju-lei-xing/enum-mei-ju.html">
+            
+                <a href="ce-shi/fu-za-shu-ju-lei-xing/enum-mei-ju.html">
+            
+                    
+                    enum 枚举
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.5.2" data-path="ce-shi/fu-za-shu-ju-lei-xing/jie-gou.html">
+            
+                <a href="ce-shi/fu-za-shu-ju-lei-xing/jie-gou.html">
+            
+                    
+                    struct 结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.5.3" data-path="ce-shi/fu-za-shu-ju-lei-xing/shu-xing.html">
+            
+                <a href="ce-shi/fu-za-shu-ju-lei-xing/shu-xing.html">
+            
+                    
+                    属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.6" data-path="ce-shi/gou-zao-han-shu-he-xi-gou-han-shu.html">
+            
+                <a href="ce-shi/gou-zao-han-shu-he-xi-gou-han-shu.html">
+            
+                    
+                    构造函数和析构函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.6.1" data-path="ce-shi/gou-zao-han-shu-he-xi-gou-han-shu/gou-zao-han-shu.html">
+            
+                <a href="ce-shi/gou-zao-han-shu-he-xi-gou-han-shu/gou-zao-han-shu.html">
+            
+                    
+                    构造函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.6.2" data-path="ce-shi/gou-zao-han-shu-he-xi-gou-han-shu/xi-gou-han-shu.html">
+            
+                <a href="ce-shi/gou-zao-han-shu-he-xi-gou-han-shu/xi-gou-han-shu.html">
+            
+                    
+                    析构函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.7" data-path="ce-shi/ji-he.html">
+            
+                <a href="ce-shi/ji-he.html">
+            
+                    
+                    集合
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.7.1" data-path="ce-shi/ji-he/arraylist-ji-he.html">
+            
+                <a href="ce-shi/ji-he/arraylist-ji-he.html">
+            
+                    
+                    ArrayList 集合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.7.2" data-path="ce-shi/ji-he/hashtable-ji-he.html">
+            
+                <a href="ce-shi/ji-he/hashtable-ji-he.html">
+            
+                    
+                    Hashtable 集合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.7.3" data-path="ce-shi/ji-he/jian-zhi-duiji-he-zi-dian-dictionary.html">
+            
+                <a href="ce-shi/ji-he/jian-zhi-duiji-he-zi-dian-dictionary.html">
+            
+                    
+                    键值对集合  字典 Dictionary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.8" data-path="ce-shi/liu-cheng-kong-zhi.html">
+            
+                <a href="ce-shi/liu-cheng-kong-zhi.html">
+            
+                    
+                    流程控制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.8.1" data-path="ce-shi/liu-cheng-kong-zhi/do-while-xun-huan.html">
+            
+                <a href="ce-shi/liu-cheng-kong-zhi/do-while-xun-huan.html">
+            
+                    
+                    do-while 循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.8.2" data-path="ce-shi/liu-cheng-kong-zhi/break.html">
+            
+                <a href="ce-shi/liu-cheng-kong-zhi/break.html">
+            
+                    
+                    break
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.8.3" data-path="ce-shi/liu-cheng-kong-zhi/for-xun-huan.html">
+            
+                <a href="ce-shi/liu-cheng-kong-zhi/for-xun-huan.html">
+            
+                    
+                    for 循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.8.4" data-path="ce-shi/liu-cheng-kong-zhi/switch-pan-duan.html">
+            
+                <a href="ce-shi/liu-cheng-kong-zhi/switch-pan-duan.html">
+            
+                    
+                    switch 判断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.8.5" data-path="ce-shi/liu-cheng-kong-zhi/while-xun-huan.html">
+            
+                <a href="ce-shi/liu-cheng-kong-zhi/while-xun-huan.html">
+            
+                    
+                    while 循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.9" data-path="ce-shi/luo-ji-pan-duan.html">
+            
+                <a href="ce-shi/luo-ji-pan-duan.html">
+            
+                    
+                    逻辑判断
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.9.1" data-path="ce-shi/luo-ji-pan-duan/if-yu-ju.html">
+            
+                <a href="ce-shi/luo-ji-pan-duan/if-yu-ju.html">
+            
+                    
+                    if 语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.9.2" data-path="ce-shi/luo-ji-pan-duan/san-yuan-biao-da-shi.html">
+            
+                <a href="ce-shi/luo-ji-pan-duan/san-yuan-biao-da-shi.html">
+            
+                    
+                    三元表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.10" data-path="ce-shi/mian-xiang-dui-xiang.html">
+            
+                <a href="ce-shi/mian-xiang-dui-xiang.html">
+            
+                    
+                    面向对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.10.1" data-path="ce-shi/mian-xiang-dui-xiang/duo-tai.md">
+            
+                <span>
+            
+                    
+                    多态
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.10.1.1" data-path="ce-shi/mian-xiang-dui-xiang/duo-tai/chou-xiang-lei.html">
+            
+                <a href="ce-shi/mian-xiang-dui-xiang/duo-tai/chou-xiang-lei.html">
+            
+                    
+                    抽象类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.10.1.2" data-path="ce-shi/mian-xiang-dui-xiang/duo-tai/jie-kou-interface.html">
+            
+                <a href="ce-shi/mian-xiang-dui-xiang/duo-tai/jie-kou-interface.html">
+            
+                    
+                    接口 interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.10.1.3" data-path="ce-shi/mian-xiang-dui-xiang/duo-tai/xu-fang-fa.html">
+            
+                <a href="ce-shi/mian-xiang-dui-xiang/duo-tai/xu-fang-fa.html">
+            
+                    
+                    虚方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.10.2" >
+            
+                <span>
+            
+                    
+                    继承
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.10.3" data-path="ce-shi/mian-xiang-dui-xiang/zhuang-xiang-he-chai-xiang.html">
+            
+                <a href="ce-shi/mian-xiang-dui-xiang/zhuang-xiang-he-chai-xiang.html">
+            
+                    
+                    装箱和拆箱
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.11" data-path="ce-shi/chang-jian-pai-xu-fang-shi.html">
+            
+                <a href="ce-shi/chang-jian-pai-xu-fang-shi.html">
+            
+                    
+                    常见排序方式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.11.1" data-path="ce-shi/chang-jian-pai-xu-fang-shi/mao-pao-pai-xu-fa.html">
+            
+                <a href="ce-shi/chang-jian-pai-xu-fang-shi/mao-pao-pai-xu-fa.html">
+            
+                    
+                    冒泡排序法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12" data-path="ce-shi/qi-ta.html">
+            
+                <a href="ce-shi/qi-ta.html">
+            
+                    
+                    其他
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.12.1" data-path="ce-shi/qi-ta/fan-hui-zhi-return.html">
+            
+                <a href="ce-shi/qi-ta/fan-hui-zhi-return.html">
+            
+                    
+                    返回值 return
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12.2" data-path="ce-shi/qi-ta/shu-ju-lei-xing.html">
+            
+                <a href="ce-shi/qi-ta/shu-ju-lei-xing.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12.3" data-path="ce-shi/qi-ta/jing-tai-he-fei-jing-tai-de-qu-bie.html">
+            
+                <a href="ce-shi/qi-ta/jing-tai-he-fei-jing-tai-de-qu-bie.html">
+            
+                    
+                    静态和非静态的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12.4" data-path="ce-shi/qi-ta/yi-chang-bu-huo.html">
+            
+                <a href="ce-shi/qi-ta/yi-chang-bu-huo.html">
+            
+                    
+                    异常捕获
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12.5" data-path="ce-shi/qi-ta/zhu-shi.html">
+            
+                <a href="ce-shi/qi-ta/zhu-shi.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12.6" data-path="ce-shi/qi-ta/zhuan-yi-fu.html">
+            
+                <a href="ce-shi/qi-ta/zhuan-yi-fu.html">
+            
+                    
+                    转义符
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.13" data-path="ce-shi/she-ji-mo-shi.html">
+            
+                <a href="ce-shi/she-ji-mo-shi.html">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.13.1" data-path="ce-shi/she-ji-mo-shi/jian-dan-gong-chang-she-ji-mo-shi.html">
+            
+                <a href="ce-shi/she-ji-mo-shi/jian-dan-gong-chang-she-ji-mo-shi.html">
+            
+                    
+                    简单工厂设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14" data-path="ce-shi/te-shu-can-shu-he-xiu-shi-fu.html">
+            
+                <a href="ce-shi/te-shu-can-shu-he-xiu-shi-fu.html">
+            
+                    
+                    特殊参数和修饰符
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.14.1" data-path="ce-shi/te-shu-can-shu-he-xiu-shi-fu/new.html">
+            
+                <a href="ce-shi/te-shu-can-shu-he-xiu-shi-fu/new.html">
+            
+                    
+                    new 关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14.2" data-path="ce-shi/te-shu-can-shu-he-xiu-shi-fu/this-guan-jian-zi.html">
+            
+                <a href="ce-shi/te-shu-can-shu-he-xiu-shi-fu/this-guan-jian-zi.html">
+            
+                    
+                    this 关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14.3" data-path="ce-shi/te-shu-can-shu-he-xiu-shi-fu/outrefparams.html">
+            
+                <a href="ce-shi/te-shu-can-shu-he-xiu-shi-fu/outrefparams.html">
+            
+                    
+                    out、ref、params
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.14.3.1" >
+            
+                <span>
+            
+                    
+                    out 参数
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14.3.2" >
+            
+                <span>
+            
+                    
+                    ref 参数
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14.3.3" >
+            
+                <span>
+            
+                    
+                    params （数组）可变参数
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14.4" data-path="ce-shi/te-shu-can-shu-he-xiu-shi-fu/fang-wen-xiu-shi-fu.html">
+            
+                <a href="ce-shi/te-shu-can-shu-he-xiu-shi-fu/fang-wen-xiu-shi-fu.html">
+            
+                    
+                    访问修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.15" data-path="ce-shi/wei-tuo.html">
+            
+                <a href="ce-shi/wei-tuo.html">
+            
+                    
+                    委托
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16" data-path="ce-shi/wen-jian-cao-zuo.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo.html">
+            
+                    
+                    文件操作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.16.1" data-path="ce-shi/wen-jian-cao-zuo/file-lei.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo/file-lei.html">
+            
+                    
+                    File 类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16.2" data-path="ce-shi/wen-jian-cao-zuo/filesteam-wen-jian-liu.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo/filesteam-wen-jian-liu.html">
+            
+                    
+                    FileSteam 文件流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16.3" data-path="ce-shi/wen-jian-cao-zuo/path-lei.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo/path-lei.html">
+            
+                    
+                    Path 类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16.4" data-path="ce-shi/wen-jian-cao-zuo/streamreaderhe-streamwriter.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo/streamreaderhe-streamwriter.html">
+            
+                    
+                    StreamReader和StreamWriter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16.5" data-path="ce-shi/wen-jian-cao-zuo/using.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo/using.html">
+            
+                    
+                    Using
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16.6" data-path="ce-shi/wen-jian-cao-zuo/mu-lu-directory.html">
+            
+                <a href="ce-shi/wen-jian-cao-zuo/mu-lu-directory.html">
+            
+                    
+                    目录 Directory
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.17" data-path="ce-shi/xu-lie-hua-yu-fan-xu-lie-hua.html">
+            
+                <a href="ce-shi/xu-lie-hua-yu-fan-xu-lie-hua.html">
+            
+                    
+                    序列化与反序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.18" data-path="te-shu-lei.html">
+            
+                <a href="te-shu-lei.html">
+            
+                    
+                    特殊类
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.18.1" data-path="te-shu-lei/mi-feng-lei-sealed.html">
+            
+                <a href="te-shu-lei/mi-feng-lei-sealed.html">
+            
+                    
+                    密封类 sealed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.18.2" data-path="te-shu-lei/bu-fen-lei-partial.html">
+            
+                <a href="te-shu-lei/bu-fen-lei-partial.html">
+            
+                    
+                    部分类 partial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.19" data-path="ce-shi/zi-fu-chuan.html">
+            
+                <a href="ce-shi/zi-fu-chuan.html">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.19.1" data-path="ce-shi/zi-fu-chuan/zi-fu-chuan-fang-fa-ff1a-jie-qu-3001-ti-huan-deng-deng.html">
+            
+                <a href="ce-shi/zi-fu-chuan/zi-fu-chuan-fang-fa-ff1a-jie-qu-3001-ti-huan-deng-deng.html">
+            
+                    
+                    字符串方法：截取、替换等等
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.19.2" data-path="ce-shi/zi-fu-chuan/da-liang-zi-fu-chuan-pin-jie-stringbulider.html">
+            
+                <a href="ce-shi/zi-fu-chuan/da-liang-zi-fu-chuan-pin-jie-stringbulider.html">
+            
+                    
+                    大量字符串拼接 StringBulider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.19.3" data-path="ce-shi/zi-fu-chuan/zi-fu-chuan-de-bu-ke-bian-xing.html">
+            
+                <a href="ce-shi/zi-fu-chuan/zi-fu-chuan-de-bu-ke-bian-xing.html">
+            
+                    
+                    字符串的不可变性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.19.4" data-path="ce-shi/zi-fu-chuan/zi-fu-chuan-yu-char-lei-xing-zhuan-huan.html">
+            
+                <a href="ce-shi/zi-fu-chuan/zi-fu-chuan-yu-char-lei-xing-zhuan-huan.html">
+            
+                    
+                    字符串与char类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.20" data-path="ce-shi/zheng-ze-biao-da-shi.html">
+            
+                <a href="ce-shi/zheng-ze-biao-da-shi.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.21" data-path="ce-shi/zhi-lei-xing-yu-yin-yong-lei-xing-de-chuan-di.html">
+            
+                <a href="ce-shi/zhi-lei-xing-yu-yin-yong-lei-xing-de-chuan-di.html">
+            
+                    
+                    值类型与引用类型的传递
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    First Chapter
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >类型转换</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4ECE;&#x6839;&#x672C;&#x4E0A;&#x8BF4;&#x662F;&#x7C7B;&#x578B;&#x94F8;&#x9020;&#xFF0C;&#x6216;&#x8005;&#x8BF4;&#x662F;&#x628A;&#x6570;&#x636E;&#x4ECE;&#x4E00;&#x79CD;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E3A;&#x53E6;&#x4E00;&#x79CD;&#x7C7B;&#x578B;&#x3002;&#x5728; C# &#x4E2D;&#xFF0C;&#x7C7B;&#x578B;&#x94F8;&#x9020;&#x6709;&#x4E24;&#x79CD;&#x5F62;&#x5F0F;&#xFF1A;</p>
+<pre><code>&#x9690;&#x5F0F;&#x7C7B;&#x578B;&#x8F6C;&#x6362; - &#x8FD9;&#x4E9B;&#x8F6C;&#x6362;&#x662F; C# &#x9ED8;&#x8BA4;&#x7684;&#x4EE5;&#x5B89;&#x5168;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x7684;&#x8F6C;&#x6362;, &#x4E0D;&#x4F1A;&#x5BFC;&#x81F4;&#x6570;&#x636E;&#x4E22;&#x5931;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x4ECE;&#x5C0F;&#x7684;&#x6574;&#x6570;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E3A;&#x5927;&#x7684;&#x6574;&#x6570;&#x7C7B;&#x578B;&#xFF0C;&#x4ECE;&#x6D3E;&#x751F;&#x7C7B;&#x8F6C;&#x6362;&#x4E3A;&#x57FA;&#x7C7B;&#x3002;
+&#x663E;&#x5F0F;&#x7C7B;&#x578B;&#x8F6C;&#x6362; - &#x663E;&#x5F0F;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#xFF0C;&#x5373;&#x5F3A;&#x5236;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x3002;&#x663E;&#x5F0F;&#x8F6C;&#x6362;&#x9700;&#x8981;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x8FD0;&#x7B97;&#x7B26;&#xFF0C;&#x800C;&#x4E14;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x4F1A;&#x9020;&#x6210;&#x6570;&#x636E;&#x4E22;&#x5931;&#x3002;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ce-shi/vs.html" class="navigation navigation-prev " aria-label="Previous page: VS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lei-xing-zhuan-huan/li-shi-lei-xing-zhuan.html" class="navigation navigation-next " aria-label="Next page: 里氏类型转">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"类型转换","level":"1.1.1.2","depth":3,"next":{"title":"里氏类型转","level":"1.1.1.2.1","depth":4,"path":"lei-xing-zhuan-huan/li-shi-lei-xing-zhuan.md","ref":"lei-xing-zhuan-huan/li-shi-lei-xing-zhuan.md","articles":[]},"previous":{"title":"VS","level":"1.1.1.1","depth":3,"path":"ce-shi/vs.md","ref":"ce-shi/vs.md","articles":[]},"dir":"ltr"},"config":{"plugins":["donate","github-buttons@2.1.0","edit-link","toggle-chapters","expandable-chapters","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy Taobao FED Team","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"http://i2.bvimg.com/656694/61b813787f774296.png","alipayText":"支付宝续命","button":"支持一下","title":"","wechat":"http://i2.bvimg.com/656694/59145fa96b150523.png","wechatText":"微信续命"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-buttons":{"repo":"darrenliuwei/gitbook","types":["star"],"size":"small"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"在github编辑此页","base":"https://github.com/darrenliuwei/gitbook/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","author":"萌萌哒的程序猿","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"萌萌哒的程序猿","language":"中文","gitbook":"*","description":"萌萌哒的程序猿"},"file":{"path":"lei-xing-zhuan-huan.md","mtime":"2018-08-04T11:32:59.931Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-04T15:46:28.221Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
